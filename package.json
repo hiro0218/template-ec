@@ -21,8 +21,14 @@
   "homepage": "https://github.com/hiro0218/template-ec#readme",
   "dependencies": {},
   "devDependencies": {
-    "@storybook/html": "^5.0.11",
     "@babel/core": "^7.4.5",
-    "babel-loader": "^8.0.6"
+    "@storybook/addon-viewport": "^5.0.11",
+    "@storybook/html": "^5.0.11",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^2.1.1",
+    "node-sass": "^4.12.0",
+    "normalize.css": "^8.0.1",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1"
   }
 }
