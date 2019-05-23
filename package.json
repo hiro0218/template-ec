@@ -1,0 +1,28 @@
+{
+  "name": "template-ec",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hiro0218/template-ec.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hiro0218/template-ec/issues"
+  },
+  "homepage": "https://github.com/hiro0218/template-ec#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@storybook/html": "^5.0.11",
+    "@babel/core": "^7.4.5",
+    "babel-loader": "^8.0.6"
+  }
+}
