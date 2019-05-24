@@ -1,0 +1,27 @@
+.c-steps {
+  display: flex;
+  width: 100%;
+  color: #555;
+  text-align: center;
+
+  .step {
+    flex: 1;
+    border-bottom: 0.2em solid #eee;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    counter-increment: number;
+
+    &::before {
+      content: counter(number) ". ";
+    }
+
+    &.active {
+      border-color: #333;
+      color: #333;
+    }
+
+    & + .step {
+      margin-left: 0.5rem;
+    }
+  }
+}
