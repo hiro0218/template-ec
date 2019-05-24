@@ -1,4 +1,5 @@
 import '../dev/src/index.scss';
+import '../dev/src/template.scss';
 import { configure } from '@storybook/html';
 
 // automatically import all files ending in *.stories.js
