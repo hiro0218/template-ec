@@ -1,7 +1,6 @@
 import './_index.scss';
+import html from './index.html';
 import { storiesOf } from '@storybook/html';
 
 storiesOf('template/layouts', module)
-  .add('grid', () => `
-    grid
-  `);
+  .add('grid', () => html);
