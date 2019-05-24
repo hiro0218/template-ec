@@ -1,0 +1,13 @@
+// variables
+
+$container-space: 3% !default;
+
+// class
+
+.l-container {
+  width: 100%;
+  padding-right: $container-space;
+  padding-left: $container-space;
+  margin-right: auto;
+  margin-left: auto;
+}
