@@ -1,5 +1,5 @@
 import html from './index.html';
 import { storiesOf } from '@storybook/html';
 
-storiesOf('template/component', module)
+storiesOf('template/components', module)
   .add('button', () => html);
